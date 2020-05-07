@@ -2,7 +2,7 @@
 import random
 
 def main():
-  
+
   #dice_rolls = 2
   dice_rolls = int(input('How many dice would you like to roll? '))
   dice_size = int(input('How many sides are the dice? '))
@@ -18,7 +18,7 @@ def main():
     elif roll == dice_size:
       print(f'You rolled a {roll}! Critical Success!')
     else:
-      print(f'You rolled a {roll}')
+      print(f'You rolled an X {roll}')
   
   print()
   print(f'You have rolled a total of {dice_sum}')
